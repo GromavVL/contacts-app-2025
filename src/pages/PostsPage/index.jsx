@@ -1,11 +1,11 @@
-import React from 'react';
-import PostsList from '../../components/PostsList'
+import React from "react";
+import PostsList from "../../components/PostsList";
 
-function PostsPage () {
+function PostsPage() {
   return (
     <section>
       <h3>PostsPage</h3>
-      <PostsList/>
+      <PostsList />
     </section>
   );
 }

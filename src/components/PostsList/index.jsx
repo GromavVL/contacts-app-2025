@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-function PostsList () {
+function PostsList() {
   return <div>PostsList</div>;
 }
 
