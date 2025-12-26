@@ -1,12 +1,13 @@
-import React from "react";
-import ContactForm from "../../components/ContactForm";
-import ContactList from "../../components/ContactList";
+import React from 'react';
+import ContactForm from '../../components/ContactForm';
+import ContactList from '../../components/ContactList';
 
-function ContactPage() {
+function ContactPage () {
   return (
     <section>
       <h3>ContactPage</h3>
       <ContactForm />
+      <p>-----------------------------------------------------------</p>
       <ContactList />
     </section>
   );
