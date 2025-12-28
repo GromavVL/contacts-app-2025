@@ -1,9 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
-import contactReduser from "./slices/contactSlice";
+import contactReducer from "./slices/contactSlice";
+import postsReducer from './slices/postsSlice'
 
 const store = configureStore({
   reducer: {
-    contactList: contactReduser,
+    contactList: contactReducer,
+    postsList: postsReducer,
   },
 });
 
