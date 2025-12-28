@@ -6,3 +6,5 @@ const axiosInstans = axios.create({
 })
 
 export const getPosts = () => axiosInstans.get('/posts');
+
+export const getUsers = () => axiosInstans.get('/users');
